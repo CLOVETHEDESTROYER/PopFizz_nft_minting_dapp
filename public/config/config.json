@@ -3,12 +3,12 @@
   "SCAN_LINK": "https://polygonscan.com/token/0x827acb09a2dc20e39c9aad7f7190d9bc53534192",
   "NETWORK": {
     "NAME": "Ethereum",
-    "SYMBOL": "Ether",
+    "SYMBOL": "ETH",
     "ID": 137
   },
   "NFT_NAME": "Pop Fizz Paleta Pals",
   "SYMBOL": "PFPP",
-  "MAX_SUPPLY": 6666,
+  "MAX_SUPPLY": 4444,
   "WEI_COST": 75000000000000000,
   "DISPLAY_COST": 0.075,
   "GAS_LIMIT": 285000,
