@@ -1,4 +1,10 @@
-import React from 'react';
+import React, { useEffect, useState, useRef } from "react";
+import { useDispatch, useSelector } from "react-redux";
+import { connect } from "./redux/blockchain/blockchainActions";
+import { fetchData } from "./redux/data/dataActions";
+import * as s from "./styles/globalStyles";
+import styled from "styled-components";
+import 'bootstrap/dist/css/bootstrap.css';
 import {  Link } from "react-router-dom";
 import About from './About.js'
 import {Nav, Container} from "react-bootstrap";
@@ -11,31 +17,31 @@ import style from "../src/css/style.css";
         <header>
             <div className="container">
                 <div className="logo">
-                    <a href="/">
-                        <img src="." alt="logo"/>
+                    <a href="https://PopFizzABQ.com" target="_blank">
+                        <img src="config/images/PopFizzBlackAndWhiteSidelogo.png" alt="logo"/>
                     </a>
                 </div>
                 <div className="menu">
                     <a
-                        href="https://discord.gg/A9CnsVzzkZ"
+                        href="https://discord.gg/d3PA7tejTJ"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        <img src="images/header/discord.webp" alt="Discord"/>
+                        <img src="config/images/header/discord.webp" alt="discorddIcon(website).png" alt="Discord"/>
                     </a>
                     <a
-                        href="https://twitter.com/CodeCats10k"
+                        href="https://twitter.com/PaletaPalNFT"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        <img src="images/header/twitter.webp" alt="Twitter"/>
+                        <img src="config/images/header/twitter.webp" alt="Twitter"/>
                     </a>
                     <a
-                        href="https://opensea.io/collection/codecats"
+                        href="https://opensea.io/collection/PopFizzPaletaPals"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        <img src="images/header/opensea.webp" alt="Opensea"/>
+                        <img src="config/images/header/opensea.webp" alt="Opensea"/>
                     </a>
                     <button className="wallet-btn btn" id="connectWallet">
                         <span>Connect Wallet</span>

@@ -9,7 +9,7 @@ return (
         <ul
             id="countdown"
             className="count-down"
-            data-date="Feb 17, 2022 4:00:00 PM UTC"
+            data-date="Feb 22, 2022 4:00:00 PM UTC"
         >
             <li className="clock-item">
                 <span className="count-number days">20</span>
@@ -33,9 +33,9 @@ return (
         </ul>
         <h1>NFT Drop Coming Soon!!</h1>
 
-        <p>A new batch of cute cats will be available very soon!</p>
-        <a href="https://discord.gg/A9CnsVzzkZ" target="_blank" rel="noopener noreferrer" className="hero-btn btn"
-        ><span>Join the Catmmunity</span>
+        <p>We are a first of it's kind NFT that makes you part of our business</p>
+        <a href="https://discord.gg/d3PA7tejTJ" target="_blank" rel="noopener noreferrer" className="hero-btn btn"
+        ><span>Join the Paleta Pals</span>
         </a>
     </div>
 </section>)
@@ -43,12 +43,12 @@ return (
 
 
 
-const clockdiv = document.getElementById("countdown");
+const clockDiv = document.getElementById("countdown");
 const countDownTime = new Date(
-    clockdiv.getAttribute("data-date")
+    clockDiv.getAttribute("data-date")
 ).getTime();
 
-const countdownfunction = setInterval(function () {
+const countdownFunction = setInterval(function () {
     const now = new Date().getTime();
     const diff = countDownTime - now;
     const days = Math.floor(diff / (1000 * 60 * 60 * 24));
@@ -57,13 +57,13 @@ const countdownfunction = setInterval(function () {
     const seconds = Math.floor(diff % (1000 * 60) / 1000);
 
     if (diff < 0) {
-        clockdiv.style.display = "none";
-        clearInterval(countdownfunction);
+        clockDiv.style.display = "none";
+        clearInterval(countdownFunction);
     } else {
-        clockdiv.querySelector(".days").innerHTML = days;
-        clockdiv.querySelector(".hours").innerHTML = hours;
-        clockdiv.querySelector(".minutes").innerHTML = minutes;
-        clockdiv.querySelector(".seconds").innerHTML = seconds;
+        clockDiv.querySelector(".days").innerHTML = days;
+        clockDiv.querySelector(".hours").innerHTML = hours;
+        clockDiv.querySelector(".minutes").innerHTML = minutes;
+        clockDiv.querySelector(".seconds").innerHTML = seconds;
     }
 }, 1000);
 }
