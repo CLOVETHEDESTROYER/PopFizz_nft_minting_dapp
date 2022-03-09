@@ -27,7 +27,7 @@ import style from "../src/css/style.css";
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        <img src="config/images/header/discord.webp" alt="discorddIcon(website).png" alt="Discord"/>
+                        <img src="config/images/header/discord.webp" alt="discord Icon(website).png" alt="Discord"/>
                     </a>
                     <a
                         href="https://twitter.com/PaletaPalNFT"
@@ -37,14 +37,16 @@ import style from "../src/css/style.css";
                         <img src="config/images/header/twitter.webp" alt="Twitter"/>
                     </a>
                     <a
-                        href="https://opensea.io/collection/PopFizzPaletaPals"
+                        href="https://opensea.io/collection/popfizzpaletapals"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
                         <img src="config/images/header/opensea.webp" alt="Opensea"/>
                     </a>
                     <button className="wallet-btn btn" id="connectWallet">
-                        <span>Connect Wallet</span>
+                        <a href="https://www.popfizzabq.com/popfizzpaletapals" target="_blank">
+                        <span>Pop Fizz Paleta Pals</span>
+                      </a>
                     </button>
                 </div>
             </div>

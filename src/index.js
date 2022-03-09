@@ -7,12 +7,8 @@ import { Provider } from "react-redux";
 import "./styles/reset.css";
 import Navbar from "./Navigation.js";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-/*
-import 'bootstrap/dist/css/bootstrap.css';
-*/
-
-import About from './About.js'
 import Countdown from "./Countdown";
+import About from "./About";
 
 const Routing = () => {
     return(

@@ -11,7 +11,7 @@ const truncate = (input, len) =>
   input.length > len ? `${input.substring(0, len)}...` : input;
 
 export const StyledButton = styled.button`
-  padding: 10px;
+  padding: 20px;
   border-radius: 50px;
   border: none;
   background-color: var(--secondary);
@@ -109,7 +109,7 @@ function App() {
     NETWORK: {
       NAME: "",
       SYMBOL: "",
-      ID: 0,
+      ID: 1,
     },
     NFT_NAME: "",
     SYMBOL: "",
@@ -208,7 +208,8 @@ function App() {
         <s.SpacerSmall />
         <ResponsiveWrapper flex={1} style={{ padding: 24 }} test>
           <s.Container flex={1} jc={"center"} ai={"center"}>
-            <StyledImg alt={"example"} src={"/config/images/example.gif"} />
+            <StyledImg alt={"example"} src={"/config/images/mysteryMint.png" +
+            ""} />
           </s.Container>
           <s.SpacerLarge />
           <s.Container
@@ -295,7 +296,7 @@ function App() {
                         getData();
                       }}
                     >
-                      CONNECT METAMASK
+                      CONNECT YOUR WALLET
                     </StyledButton>
                     {blockchain.errorMsg !== "" ? (
                       <>
@@ -376,7 +377,7 @@ function App() {
           <s.Container flex={1} jc={"center"} ai={"center"}>
             <StyledImg
               alt={"example"}
-              src={"/config/images/example.gif"}
+              src={"/config/images/mysteryMint.png"}
               style={{ transform: "scaleX(-1)" }}
             />
           </s.Container>
