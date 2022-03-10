@@ -1,4 +1,5 @@
 {
+  "homepage": "https://CLOVETHEDESTROYER.github.io/PopFizz_nft_minting_dapp",
   "name": "PopFizz_nft_minting_dapp",
   "version": "1.0.0",
   "description": "Pop Fizz Paleta Pals are 4,444 individual NFTs with tons of cool benefits",
@@ -38,5 +39,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
   }
 }
