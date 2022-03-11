@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/PopFizz_nft_minting_dapp/static/css/main.6e09b953.chunk.css",
-    "main.js": "/PopFizz_nft_minting_dapp/static/js/main.81089dec.chunk.js",
-    "main.js.map": "/PopFizz_nft_minting_dapp/static/js/main.81089dec.chunk.js.map",
-    "runtime-main.js": "/PopFizz_nft_minting_dapp/static/js/runtime-main.acda2a11.js",
-    "runtime-main.js.map": "/PopFizz_nft_minting_dapp/static/js/runtime-main.acda2a11.js.map",
-    "static/css/2.acf9cc11.chunk.css": "/PopFizz_nft_minting_dapp/static/css/2.acf9cc11.chunk.css",
-    "static/js/2.87399756.chunk.js": "/PopFizz_nft_minting_dapp/static/js/2.87399756.chunk.js",
-    "static/js/2.87399756.chunk.js.map": "/PopFizz_nft_minting_dapp/static/js/2.87399756.chunk.js.map",
-    "static/js/3.8b852a8a.chunk.js": "/PopFizz_nft_minting_dapp/static/js/3.8b852a8a.chunk.js",
-    "static/js/3.8b852a8a.chunk.js.map": "/PopFizz_nft_minting_dapp/static/js/3.8b852a8a.chunk.js.map",
-    "index.html": "/PopFizz_nft_minting_dapp/index.html",
-    "static/css/2.acf9cc11.chunk.css.map": "/PopFizz_nft_minting_dapp/static/css/2.acf9cc11.chunk.css.map",
-    "static/css/main.6e09b953.chunk.css.map": "/PopFizz_nft_minting_dapp/static/css/main.6e09b953.chunk.css.map",
-    "static/js/2.87399756.chunk.js.LICENSE.txt": "/PopFizz_nft_minting_dapp/static/js/2.87399756.chunk.js.LICENSE.txt",
-    "static/media/reset.css": "/PopFizz_nft_minting_dapp/static/media/font.617a0a92.woff"
+    "main.css": "./static/css/main.aebef0ee.chunk.css",
+    "main.js": "./static/js/main.81089dec.chunk.js",
+    "main.js.map": "./static/js/main.81089dec.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.82153a71.js",
+    "runtime-main.js.map": "./static/js/runtime-main.82153a71.js.map",
+    "static/css/2.acf9cc11.chunk.css": "./static/css/2.acf9cc11.chunk.css",
+    "static/js/2.2838e23a.chunk.js": "./static/js/2.2838e23a.chunk.js",
+    "static/js/2.2838e23a.chunk.js.map": "./static/js/2.2838e23a.chunk.js.map",
+    "static/js/3.8b852a8a.chunk.js": "./static/js/3.8b852a8a.chunk.js",
+    "static/js/3.8b852a8a.chunk.js.map": "./static/js/3.8b852a8a.chunk.js.map",
+    "index.html": "./index.html",
+    "static/css/2.acf9cc11.chunk.css.map": "./static/css/2.acf9cc11.chunk.css.map",
+    "static/css/main.aebef0ee.chunk.css.map": "./static/css/main.aebef0ee.chunk.css.map",
+    "static/js/2.2838e23a.chunk.js.LICENSE.txt": "./static/js/2.2838e23a.chunk.js.LICENSE.txt",
+    "static/media/reset.css": "./static/media/font.617a0a92.woff"
   },
   "entrypoints": [
-    "static/js/runtime-main.acda2a11.js",
+    "static/js/runtime-main.82153a71.js",
     "static/css/2.acf9cc11.chunk.css",
-    "static/js/2.87399756.chunk.js",
-    "static/css/main.6e09b953.chunk.css",
+    "static/js/2.2838e23a.chunk.js",
+    "static/css/main.aebef0ee.chunk.css",
     "static/js/main.81089dec.chunk.js"
   ]
 }
