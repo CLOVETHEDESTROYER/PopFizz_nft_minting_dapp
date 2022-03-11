@@ -18,7 +18,7 @@ import style from "../src/css/style.css";
             <div className="container">
                 <div className="logo">
                     <a href="https://PopFizzABQ.com" target="_blank">
-                        <img src="PopFizz_nft_minting_dapp/config/images/PopFizzBlackAndWhiteSidelogo.png" alt="logo"/>
+                        <img src="config/images/PopFizzBlackAndWhiteSidelogo.png" alt="logo"/>
                     </a>
                 </div>
                 <div className="menu">
