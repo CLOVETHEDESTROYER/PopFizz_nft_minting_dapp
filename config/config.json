@@ -1,0 +1,18 @@
+{
+  "CONTRACT_ADDRESS": "0xDa444f88b72C87042FF569558297C2B87aEf01f8",
+  "SCAN_LINK": "https://etherscan.io/address/0xda444f88b72c87042ff569558297c2b87aef01f8",
+  "NETWORK": {
+    "NAME": "Ethereum",
+    "SYMBOL": "ETH",
+    "ID": 1
+  },
+  "NFT_NAME": "Pop Fizz Paleta Pals",
+  "SYMBOL": "PFPP",
+  "MAX_SUPPLY": 4444,
+  "WEI_COST": 50000000000000000,
+  "DISPLAY_COST": 0.05,
+  "GAS_LIMIT": 285000,
+  "MARKETPLACE": "Opeansea",
+  "MARKETPLACE_LINK": "https://opensea.io/collection/popfizzpaletapals",
+  "SHOW_BACKGROUND": true
+}

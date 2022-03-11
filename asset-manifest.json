@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/PopFizz_nft_minting_dapp/static/css/main.6e09b953.chunk.css",
+    "main.js": "/PopFizz_nft_minting_dapp/static/js/main.81089dec.chunk.js",
+    "main.js.map": "/PopFizz_nft_minting_dapp/static/js/main.81089dec.chunk.js.map",
+    "runtime-main.js": "/PopFizz_nft_minting_dapp/static/js/runtime-main.acda2a11.js",
+    "runtime-main.js.map": "/PopFizz_nft_minting_dapp/static/js/runtime-main.acda2a11.js.map",
+    "static/css/2.acf9cc11.chunk.css": "/PopFizz_nft_minting_dapp/static/css/2.acf9cc11.chunk.css",
+    "static/js/2.87399756.chunk.js": "/PopFizz_nft_minting_dapp/static/js/2.87399756.chunk.js",
+    "static/js/2.87399756.chunk.js.map": "/PopFizz_nft_minting_dapp/static/js/2.87399756.chunk.js.map",
+    "static/js/3.8b852a8a.chunk.js": "/PopFizz_nft_minting_dapp/static/js/3.8b852a8a.chunk.js",
+    "static/js/3.8b852a8a.chunk.js.map": "/PopFizz_nft_minting_dapp/static/js/3.8b852a8a.chunk.js.map",
+    "index.html": "/PopFizz_nft_minting_dapp/index.html",
+    "static/css/2.acf9cc11.chunk.css.map": "/PopFizz_nft_minting_dapp/static/css/2.acf9cc11.chunk.css.map",
+    "static/css/main.6e09b953.chunk.css.map": "/PopFizz_nft_minting_dapp/static/css/main.6e09b953.chunk.css.map",
+    "static/js/2.87399756.chunk.js.LICENSE.txt": "/PopFizz_nft_minting_dapp/static/js/2.87399756.chunk.js.LICENSE.txt",
+    "static/media/reset.css": "/PopFizz_nft_minting_dapp/static/media/font.617a0a92.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.acda2a11.js",
+    "static/css/2.acf9cc11.chunk.css",
+    "static/js/2.87399756.chunk.js",
+    "static/css/main.6e09b953.chunk.css",
+    "static/js/main.81089dec.chunk.js"
+  ]
+}
